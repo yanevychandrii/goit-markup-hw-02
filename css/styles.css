@@ -19,7 +19,7 @@ a {
 .logo {
   color: #4d5ae5;
   font-size: 18px;
-  font-family: "Raleway", sans-serif;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   line-height: 1.17;
@@ -40,6 +40,9 @@ a {
 .nav-list-item {
   color: #2e2f42;
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .contact-list {
@@ -60,39 +63,53 @@ a {
 }
 
 .main-title {
-  color: white;
+  color: #ffffff;
   font-size: 56px;
   font-weight: 700;
-  line-height: 60px;
-  letter-spacing: 1.12px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
   text-align: center;
 }
 
 .main-button {
-  color: white;
+  color: #ffffff;
   background-color: #4d5ae5;
+  font-family: Roboto, sans-serif;
   font-weight: 500;
-  letter-spacing: 0.64px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
 }
 
-h3 {
+.main-button:hover,
+.main-button:focus {
+  background-color: #404bbf;
+}
+
+.hed-3 {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
 }
 
-p {
+.sect-par {
   color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
-h2 {
+.title-hedading {
   color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
   text-transform: capitalize;
-  line-height: 40px;
-  letter-spacing: 0.72px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .team {
@@ -104,12 +121,17 @@ h2 {
 }
 
 .logo-footer {
-  color: #f4f4fd;
+  color: #4d5ae5;
   font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
-  line-height: 21px;
+  line-height: 1.17;
   letter-spacing: 0.54px;
+  font-family: Raleway, sans-serif;
+}
+
+.logo-title-footer {
+  color: #f4f4fd;
 }
 
 .par-footer {
