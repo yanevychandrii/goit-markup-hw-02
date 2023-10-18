@@ -45,6 +45,11 @@ a {
   letter-spacing: 0.02em;
 }
 
+.nav-list-item:hover,
+.nav-list-item:focus {
+  color: #404bbf;
+}
+
 .contact-list {
   font-style: normal;
 }
